@@ -38,3 +38,16 @@ if __name__ == "__main__":
     result1 = bubble_sort(arr1.copy())
     print(f"排序后: {result1}")
     print()
+
+    # 测试 2: 已排序数组（验证提前终止优化）
+    arr2 = [1, 2, 3, 4, 5]
+    print(f"原数组: {arr2}")
+    result2 = bubble_sort(arr2.copy())
+    print(f"排序后: {result2}")
+    print()
+
+    # 测试 3: 逆序数组
+    arr3 = [5, 4, 3, 2, 1]
+    print(f"原数组: {arr3}")
+    result3 = bubble_sort(arr3.copy())
+    print(f"排序后: {result3}")
